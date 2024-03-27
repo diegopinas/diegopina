@@ -21,41 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-</style>
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="diegopina_files/libs/clipboard/clipboard.min.js"></script>
@@ -101,29 +86,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
+<section id="riesgo-politico-en-chile-y-su-impacto-en-las-inversiones-extranjeras." class="level1">
+<h1>Riesgo politico en Chile y su impacto en las inversiones extranjeras.</h1>
+<p>Por: Diego Martínez</p>
+<section id="introducción" class="level2">
+<h2 class="anchored" data-anchor-id="introducción">Introducción:</h2>
+<p>Los trabajos sobre riesgo politico son propios de los profesionales de negocios internacionales <span class="citation" data-cites="jeffreysimonTheoreticalPerspectivePolitical1984">(ver <a href="#ref-jeffreysimonTheoreticalPerspectivePolitical1984" role="doc-biblioref">Jeffrey Simon and Simon 1984</a>)</span>, sin embargo es posible encontrar trabajos que aborden el riesgo politico desde la ciencia política este es el caso del estudio de Johannes Leitner <span class="citation" data-cites="johannesleitner2016">(ver <a href="#ref-johannesleitner2016" role="doc-biblioref">Johannes Leitner and H. Meissner 2016</a>)</span> que define como el riesgo político como un concepto que cubre aquellos factores de riesgo para las empresas internacionales que están arraigados en el entorno político e institucional de un país pero que tienen consecuencias inmediatas en el desempeño de la empresa. En este trabajo aborda el nuevo panorama politico en el que se encuentran insertas las empresas, asi como la importancia del Estado y como su marco institucional influye en la toma de decisiones de empresas he inversionistas extranjeros.</p>
+<p>Para demostrar la importancia de los marcos intitucionales y las decisiones politicas se expondra el caso de las politicas macroprudenciales de la UE <span class="citation" data-cites="eliasbengtssonMacroprudentialPolicyEU2020">(ver <a href="#ref-eliasbengtssonMacroprudentialPolicyEU2020" role="doc-biblioref">Elias Bengtsson and Bengtsson 2020</a>)</span> asi mismo haran estudios comparativos sobre el mercado de la energia [ver@tamarajoysomers-cox2014] que servira de conector para ver como paises latinoamericanos pueden sacar provecho de sus ventajas comparativas con minerales como el litio o el cobre para la transición energética global.</p>
+<p>Finalmente todo esto se hará con el motivo de comprender el riesgo politico en Chile y tratar de ver posibles caminos de solucion para los riesgos que amenazan a la nación: Como lo son la corrupción, crimen organizado y el clima de negocios (esto segun el ultimo informe de riesgo politico en America Latina) todos factores que imposibilitan el desarrollo economico y las ventajas comparativas que podria tener Chile en la transición energética mundial. Se espera que ante un marco regulatorio bien definido y que en paises donde la corrupcion sea menor el riesgo politico en consecuencia tambien lo sea.</p>
+
 </section>
-<section id="running-code" class="level2">
-<h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
-<p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-<p>You can add options to executable code like this</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 4</code></pre>
-</div>
-</div>
-<p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
 </section>
 
-</main>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-eliasbengtssonMacroprudentialPolicyEU2020" class="csl-entry" role="listitem">
+Elias Bengtsson, and Elias Bengtsson. 2020. <span>“Macroprudential Policy in the <span>EU</span>: <span>A</span> Political Economy Perspective.”</span> <em>Global Finance Journal</em> 46 (November): 100490. <a href="https://doi.org/10.1016/j.gfj.2019.100490">https://doi.org/10.1016/j.gfj.2019.100490</a>.
+</div>
+<div id="ref-jeffreysimonTheoreticalPerspectivePolitical1984" class="csl-entry" role="listitem">
+Jeffrey Simon, and Jeffrey D. Simon. 1984. <span>“A <span>Theoretical Perspective</span> on <span>Political Risk</span>.”</span> <em>Journal of International Business Studies</em> 15 (3): 123–43. <a href="https://doi.org/10.1057/palgrave.jibs.8490499">https://doi.org/10.1057/palgrave.jibs.8490499</a>.
+</div>
+<div id="ref-johannesleitner2016" class="csl-entry" role="listitem">
+Johannes Leitner, and H. Meissner. 2016. <span>“Political Risks in Post-Soviet Markets . A Theoretical Approach . 105-Risks in International Business . Considering the Market , While Not Neglecting the Political Dimension.”</span>
+</div>
+</div></section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
